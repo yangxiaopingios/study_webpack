@@ -2,7 +2,7 @@
 * @Author: yangxiooping
 * @Date:   2018-06-07 16:26:17
 * @Last Modified by:   yangxiooping
-* @Last Modified time: 2018-06-07 16:46:12
+* @Last Modified time: 2018-06-07 17:55:19
 */
  const path = require('path');
  const CleanWebpackPlugin = require('clean-webpack-plugin');
@@ -10,7 +10,8 @@
 
  module.exports = {
    entry: {
-     app: './src/index.js'
+     app: './src/index.js',
+     another: './src/another.js'
    },
    plugins: [
      new CleanWebpackPlugin(['dist']),
