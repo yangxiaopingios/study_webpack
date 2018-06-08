@@ -1,0 +1,30 @@
+{
+  "name": "study_webpack",
+  "version": "1.0.1",
+  "description": "study_webpack",
+  "main": "dist/study_webpack.js",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangxiaopingios/study_webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangxiaopingios/study_webpack/issues"
+  },
+  "homepage": "https://github.com/yangxiaopingios/study_webpack#readme"
+}
