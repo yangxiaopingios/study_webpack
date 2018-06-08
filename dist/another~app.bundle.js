@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[function(n,o,c){"use strict";function t(){console.log("I get called from print.js!")}c.d(o,"a",function(){return t})}]]);
+//# sourceMappingURL=another~app.bundle.js.map

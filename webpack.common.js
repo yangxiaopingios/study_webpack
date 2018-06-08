@@ -2,7 +2,7 @@
 * @Author: yangxiooping
 * @Date:   2018-06-07 16:26:17
 * @Last Modified by:   yangxiooping
-* @Last Modified time: 2018-06-07 17:55:19
+* @Last Modified time: 2018-06-08 09:31:46
 */
  const path = require('path');
  const CleanWebpackPlugin = require('clean-webpack-plugin');
@@ -22,6 +22,12 @@
    output: {
      filename: '[name].bundle.js',
      path: path.resolve(__dirname, 'dist')
+   },
+   optimization: {
+     splitChunks: {
+       chunks: 'all',
+       minSize: 1
+     }
    },
    module: {
      rules: [
